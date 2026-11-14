@@ -1,2 +1,1 @@
-# ProgressiveFishingPublic
-A Minecraft Paper plugin adding new fishing related content
+![Progressive Fishing](./ProgressiveFishing.jpg)
