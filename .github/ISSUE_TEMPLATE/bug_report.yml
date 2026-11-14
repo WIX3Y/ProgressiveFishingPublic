@@ -1,0 +1,34 @@
+name: 'Bug Report'
+description: Report a bug through a form.
+body:
+  - type: input
+    id: minecraft_version
+    attributes:
+      label: Minecraft version
+      placeholder: | 
+        Example: 1.21.11
+    validations:
+      required: true
+  - type: input
+    id: server_software
+    attributes:
+      label: Server Software
+      placeholder: | 
+        Example: Paper
+    validations:
+      required: true
+  - type: input
+    id: plugin_version
+    attributes:
+      label: Progressive Fishing plugin version
+      placeholder: |
+        Example: 1.4.0
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the bug is. If applicable, add screenshots to help explain your problem.
+    validations:
+      required: true
